@@ -1,0 +1,74 @@
+.resultSection{
+    background: rgba(165, 190, 121, 0.849);
+    color: white;
+}
+
+.resultsContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.results{
+    color: #f8f9fa;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 8px;
+    width: calc(60% - 20px);
+}
+
+.btnContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.marksContainer{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bad{
+    border: 2px solid rgba(201, 11, 11, 0.884);
+}
+
+.good{
+    border: 1px solid rgb(0, 102, 255);
+}
+
+.resultStatus{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.resultText{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: rgb(251, 255, 0);
+}
+
+
+.low{
+    color: rgba(255, 39, 39, 0.884);
+}
+
+.high{
+    color: rgb(0, 102, 255);;
+}
+
+.startOverBtn{
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.startOverBtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #ccc;
+}

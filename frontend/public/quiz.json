@@ -1,0 +1,112 @@
+[
+    {
+        "id": "01",
+        "question" : "For an advertiser focused on branding, what are the key success metrics on Google Display Network?",
+        "options": [
+            "Click Through Rate",
+            "CPC",
+            "Reach & Frequency",
+            "Clicks"
+        ],
+        "answer": "Reach & Frequency"
+    },
+    {
+        "id": "02",
+        "question" : "Which would contribute to a higher Quality Score for a display ad?",
+        "options": [
+            "Higher CPM bid",
+            "Fast landing page load time",
+            "How old is the ad",
+            "Creativity of the ad"
+        ],
+        "answer": "Fast landing page load time"
+    },
+    {
+        "id": "03",
+        "question" : "If a display ad has been disapproved, how does an advertiser submit a request for another review?",
+        "options": [
+            "Call Google Help",
+            "Create a new ad group and upload the ad there",
+            "Save the edited ad or upload a new ad in AdWords",
+            "Click 'Request a Review Again' button."
+        ],
+        "answer": "Save the edited ad or upload a new ad in AdWords"
+    },
+    {
+        "id": "04",
+        "question" : "Ads on YouTube are bought and sold on an auction basis as well as on a reservation basis. What placements on Youtube.lk you can buy ad placements on reservation basis?",
+        "options": [
+            "You can't buy reservation based ads on Youtube in Sri Lanka",
+            "Youtube Masthead Ads",
+            "Youtube Pre-Roll Ads",
+            "Youtube Watch Page Ads"
+        ],
+        "answer": "Youtube Masthead Ads"
+    },
+    {
+        "id": "05",
+        "question" : "In Google Analytics to recognize users across different devices, what is required for User ID?",
+        "options": [
+            "Attribution Models",
+            "Google Ads Linking",
+            "User ID",
+            "Audience Definitions"
+        ],
+        "answer": "User ID"
+    },
+    {
+        "id": "06",
+        "question" : "What Google Analytics report shows the percent of site traffic that visited previously?",
+        "options": [
+            "Sales Performance report",
+            "Frequency & Recency report",
+            "Referrals report",
+            "New vs Returning report"
+        ],
+        "answer": "New vs Returning report"
+    },
+    {
+        "id": "07",
+        "question" : "When will Google Analytics be unable to identify sessions from the same user by default?",
+        "options": [
+            "When the sessions happen in the same browser on the same device",
+            "When the sessions happen in the same browser on the same day",
+            "When the sessions share the same browser cookie",
+            "When the sessions happen in different browsers on the same device"
+        ],
+        "answer": "When the sessions happen in different browsers on the same device"
+    },
+    {
+        "id": "08",
+        "question" : "When does the tracking code send an event hit to Google Analytics?",
+        "options": [
+            "Every time a user adds an event to their calendar",
+            "Every time a user makes a reservation",
+            "Every time a user performs an action with event tracking implemented",
+            "Every time a user performs an action with pageview tracking implemented"
+        ],
+        "answer": "Every time a user performs an action with event tracking implemented"
+    },
+    {
+        "id": "09",
+        "question" : "Which of these is not a Programmatic Media Buying Method?",
+        "options": [
+            "Adobe Marketing Cloud",
+            "Rubicon Project",
+            "SimillarWeb",
+            "DoubleClick"
+        ],
+        "answer": "SimillarWeb"
+    },
+    {
+        "id": "10",
+        "question" : "Which of these is a Social Media Analytics tool?",
+        "options": [
+            "Google Analytics",
+            "Eskimi",
+            "SocialBakers",
+            "Social Media Examiner"
+        ],
+        "answer": "SocialBakers"
+    }
+]

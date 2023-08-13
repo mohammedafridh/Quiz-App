@@ -1,0 +1,37 @@
+.startSection{
+    color: white;
+    text-align: center;
+    background: darkolivegreen;
+}
+
+.containerDetails{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.homepageDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.assessmentBtn{
+    align-self: center;
+    font-weight: bold;
+    background: rgb(103, 216, 131);
+    color: black;
+    width: max-content;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.assessmentBtn:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
