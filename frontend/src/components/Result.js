@@ -8,11 +8,11 @@ const Result = ({ showResult, quizs, marks, startOver }) => {
 
         if(total<50){
             return <h2>Your are a digital marketing novice.</h2>
-        }else if(total>51 && total<60){
+        }else if(total>=50 && total<=60){
             return <h2>Your are a digital marketing seed.</h2>
-        }else if(total>61 && total<70){
+        }else if(total>=61 && total<=70){
             return <h2>Your are a digital marketing rising star.</h2>
-        }else if(total>71 && total<80){
+        }else if(total>=71 && total<=80){
             return <h2>Your are a digital marketing star.</h2>
         }else{
             return <h2>Your are a digital marketing rock star.</h2>
