@@ -1,7 +1,7 @@
 import React from 'react';
 import './Result.css'
 
-const Result = ({ showResult, quizs, marks, startOver }) => {
+const Result = ({ showResult, quizs, marks, startOver, startPage }) => {
 
     const calculateScore = ()=>{
         const total = (marks / 50) * 100
@@ -19,7 +19,9 @@ const Result = ({ showResult, quizs, marks, startOver }) => {
         }
     }
 
-    const resultHandler = ()=>{
+    const resultHandler = (e)=>{
+        e.preventDefault()
+        startPage()
     }
 
     return (

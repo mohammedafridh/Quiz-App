@@ -5,7 +5,7 @@ import UserDetails from './UserDetails';
 const Quiz = ({ showQuiz, question, quizs, checkAnswer, correctAnswer, selectedAnswer, details, questionIndex, nextQuestion, showTheResult, timeTrue, timeFalse }) => {
 
 
-    const [remainingTime, setRemainingTime] = useState(10);
+    const [remainingTime, setRemainingTime] = useState(600);
 
     //redict user to information page when the time is over. 
     useEffect(() => {

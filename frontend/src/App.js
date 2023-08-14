@@ -36,6 +36,14 @@ function App() {
     }
   }, [quizs, questionIndex])
 
+  //show start page
+  const startPage = ()=>{
+    setShowStart(true);
+    setShowResult(false);
+    setShowQuiz(false);
+    setShowUserDetails(false)
+  }
+
   // Start Quiz
   const startQuiz = () => {
     setShowStart(false);
@@ -146,7 +154,8 @@ function App() {
         showResult={showResult}
         quizs={quizs}
         marks={marks}
-        startOver={startOver} />
+        startOver={startOver}
+        startPage = {startPage} />
     </>
   );
 }
